@@ -1,4 +1,4 @@
-import './visor1.css';
+import './visors.css';
 import {Map, View} from 'ol';
 import TileLayer from 'ol/layer/Tile';
 import Stamen from 'ol/source/Stamen';
