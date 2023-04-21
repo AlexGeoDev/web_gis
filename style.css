@@ -5,7 +5,6 @@ html, body {
   height: 100%;
 }
 #map {
-  margin-top: 2.5rem;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -13,12 +12,13 @@ html, body {
 }
 
 .header {
-  margin: auto;
-  background-color: rgb(255, 255, 255);
-  opacity: .7;
+  margin: 0.5rem auto;
+  position: sticky;
+  opacity: .8;
   width: 80vw;
   text-align: center;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  align-items: baseline;
+  z-index: 1;
 }
