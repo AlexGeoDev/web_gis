@@ -8,35 +8,12 @@
     <title>Using OpenLayers with Vite</title>
   </head>
   <body>
-    <aside class="aside_buttons">
-      <div class="button_y_text">
-        <a href="visor1.html" class="ancla">
-          <button 
-            type="button"
-            class="buton btn btn-primary"
-          >
-            Ejercicio 1
-          </button>          
-        </a>
-        <p class="text_test">Visor sencillo con una capa base de Stamen Maps</p>
-      </div>
-
-      <div class="button_y_text">
-        <a href="pages/visor2/visor2.html" class="ancla">
-          <button 
-            type="button"
-            class="buton btn btn-primary"
-          >
-            Ejercicio 2
-          </button>          
-        </a>
-        <p class="text_test">Visor genérico + mapa geológico mediante un servicio WMS,
-          con transparencia al 50% para que se vea el mapa base de fondo.</p>
-      </div>
-    </aside>
+    <header class="header">
+      <h2>Visor sencillo con la capa base "watercolor" de Stamen Maps.</h2>
+    </header>
     <main>
-      <div id="map"></div>
-      <script type="module" src="./main.js"></script>      
+      <div id="map" ></div>
+      <script type="module" src="/main.js"></script>
     </main>
   </body>
 </html>
